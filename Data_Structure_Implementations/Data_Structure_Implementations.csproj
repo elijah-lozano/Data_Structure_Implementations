@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Linked List\" />
+    <None Remove="Binary Tree\" />
+    <None Remove="Trie\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Linked List\" />
+    <Folder Include="Binary Tree\" />
+    <Folder Include="Trie\" />
+  </ItemGroup>
+</Project>
